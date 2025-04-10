@@ -1,4 +1,12 @@
 # FlowRow
+
+[![Latest release](https://img.shields.io/github/v/release/c-villain/FlowRow?color=brightgreen&label=version)](https://github.com/c-villain/FlowRow/releases/latest)
+[![](https://img.shields.io/badge/SPM-supported-DE5C43.svg?color=brightgreen)](https://swift.org/package-manager/)
+![](https://img.shields.io/github/license/c-villain/FlowRow)
+
+[![contact: @lexkraev](https://img.shields.io/badge/contact-%40lexkraev-blue.svg?style=flat)](https://t.me/lexkraev)
+[![Telegram Group](https://img.shields.io/endpoint?color=neon&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Fswiftui_dev)](https://telegram.dog/swiftui_dev)
+
 SwiftUI layout component that arranges views in horizontal rows and wraps them into new lines when needed
 
 A ``FlowRow`` automatically wraps its content to a new row when it exceeds the available width, similar to text wrapping or [`FlowRow`](https://developer.android.com/develop/ui/compose/layouts/flow) in Jetpack Compose or [`flex-wrap`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap) in CSS. The number of lines can be limited via the ``maxLines`` parameter.
