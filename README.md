@@ -64,6 +64,36 @@ FlowRow(maxLines: 2, lineCount: $lineCount) {
 }
 ```
 
+## Installation
+
+#### Swift Package Manager
+
+To integrate ```FlowRow``` into your project using SwiftPM add the following to your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/c-villain/FlowRow", from: "0.1.0"),
+],
+```
+or via [XcodeGen](https://github.com/yonaskolb/XcodeGen) insert into your `project.yml`:
+
+```yaml
+name: YourProjectName
+options:
+  deploymentTarget:
+    iOS: 13.0
+packages:
+  FlowRow:
+    url: https://github.com/c-villain/FlowRow
+    from: 0.1.0
+targets:
+  YourTarget:
+    type: application
+    ...
+    dependencies:
+       - package: FlowRow
+```
+
 ## Communication
 
 - If you **found a bug**, open an issue or submit a fix via a pull request.
