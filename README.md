@@ -22,7 +22,22 @@ FlowRow {
 ### Layout behavior
 
 The component adapts its layout dynamically based on the container's width and the size of child views.
+
 It also supports alignment customization both **within rows** and **across rows** using the appropriate parameters.
+
+
+You can configure alignment:
+- Use `horizontalAlignment:` to control how each row is aligned relative to the whole layout (e.g. `.leading`, `.center`, `.trailing`)
+- Use `verticalAlignment:` to align views **within** a row (e.g. `.top`, `.center`, `.bottom`)
+
+```swift
+FlowRow(
+    horizontalAlignment: .center,
+    verticalAlignment: .top
+) {
+    ...
+}
+```
 
 ### Customizing spacing
 
