@@ -64,4 +64,10 @@ FlowRow(maxLines: 2, lineCount: $lineCount) {
 }
 ```
 
+## Communication
 
+- If you **found a bug**, open an issue or submit a fix via a pull request.
+- If you **have a feature request**, open an issue or submit a implementation via a pull request or hit me up on **lexkraev@gmail.com** or **[telegram](https://t.me/lexkraev)**.
+- If you **want to contribute**, submit a pull request onto the master branch.
+
+👨🏻‍💻 Feel free to subscribe to channel **[SwiftUI dev](https://t.me/swiftui_dev)** in telegram.
